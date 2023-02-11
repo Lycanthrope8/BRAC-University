@@ -130,6 +130,7 @@ body::-webkit-scrollbar {
 }
 
 .qtable{
+  
   margin: auto;
   width: 70%;
   padding: 5px;
@@ -138,14 +139,32 @@ body::-webkit-scrollbar {
   display: flex;
 }
 
-.qtable table{
+.qtable th{
   width:100%;
+  border: 1px solid black;
+}
+.qtable table{
+  border: 1px solid black;
+}
+
+.qtable tr{
   border: 1px solid black;
 }
 
 .qtable td{
   text-align: center;
+  border: 1px #111;
 }
+
+/* .qtable {
+  border: 0;
+}
+.qtable td{
+  border: 1px solid black;
+}
+.qtable th{
+  border: 1px solid black;
+} */
 
 .quote{
   position: relative;
